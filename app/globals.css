@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/*:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,22 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+
+@theme {
+  /* You MUST use the --color- prefix */
+  --color-grayy: #9CA3AF;
+  --color-brand-dark: #4F00FF;
+  --color-white: #e8e6df;
+  --color-custom-gray: #F4F0EA;
+  --animate-marquee: marquee 25s linear infinite;
+  --font-satoshi: var(--font-satoshi), sans-serif;
+}
+
+/* This tells the container to slide 100% of its own width to the left */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
 }
