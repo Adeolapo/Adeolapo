@@ -47,26 +47,27 @@ export default function Home() {
   );
 
   return (
-    <div className="flex flex-col flex-1 items-center gap-[120px] justify-center font-satoshi bg-black ">
-      <main className="flex flex-1 h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
+    <div className="flex flex-col  items-center gap-[120px] justify-center font-satoshi bg-black ">
+      <div className="w-full  flex flex-col h-[75vh] md:h-[80vh] lg:h-[70vh] lg:mb-[120px]  items-center ">
+      <main className="flex   w-full max-w-3xl flex-col flex-1  items-center justify-center py-32 px-16 sm:items-start">
         <h1 className="font-bold md:text-7xl text-4xl text-white mb-6 font-satoshi">Fullstack Engineer <span className="text-grayy">and</span> Product Designer</h1>
         <p className="text-grayy">Lagos, Nigeria.</p>
        
       </main>
+      </div>
 
 
 
      <section className="flex flex-col lg:flex-row items-start w-full gap-16 lg:gap-[100px] px-4 md:px-8 lg:px-16">
         {/* Text + ticker column */}
         <div className="w-full lg:flex-1 lg:max-w-xl">
-          <div ref={container} className="mb-8 md:mb-[64px]">
-            <p className="reveal-text text-base md:text-lg lg:text-xl text-white font-satoshi font-semibold leading-[1.6]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati
-              rerum quos quia, aut non recusandae sunt? Maiores, ex mollitia officia,
-              animi nisi illum temporibus amet nobis incidunt, eaque libero. Lorem ipsum font-satoshi
-              dolor sit amet consectetur adipisicing elit. Soluta obcaecati rerum quos
-              quia, aut non recusandae sunt? Maiores, ex mollitia officia, animi nisi
-              illum temporibus amet nobis incidunt, eaque libero.
+          <div ref={container} className="mb-8 md:mb-[64px]"> 
+            <p className="reveal-text text-base md:text-lg lg:text-xl text-white w-full font-satoshi font-semibold leading-[1.6]">
+             I’m Oluwasemilore Toluwanimi Adeolapo, a Frontend Developer and UI/UX Designer focused on building clean, responsive, and user-centered digital experiences.
+
+I’ve designed and developed multiple responsive websites for local businesses, improving their online presence and boosting conversions through clearer design and better usability.
+
+I combine creativity with logic, always digging into the “why” behind each design choice.
             </p>
           </div>
           <StackTicker />

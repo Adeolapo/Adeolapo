@@ -81,7 +81,7 @@ export default function Footer() {
       <div className="mt-16 @container  w-full  md:mt-24">
         <h2
           className="select-none font-bold leading-[0.85] tracking-tight text-[#e8e6df]"
-          style={{ fontSize: "clamp(2rem, 13cqi, 13rem)", margin: 0 }}
+          style={{ fontSize: "clamp(2rem, 13cqi, 30rem)", margin: 0 }}
         >
           {WORDMARK}
         </h2>
