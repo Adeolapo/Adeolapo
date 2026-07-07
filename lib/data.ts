@@ -130,9 +130,9 @@ export const BRANDS: Brand[] = [
   {
     name: "Backend",
     images: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&q=80",
-      "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=400&q=80",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&q=80",
+      "/project/FE/avant.png",
+      "/project/FE/chatapp.png",
+      "/project/FE/metube.png",
     ],
     projects: [
 

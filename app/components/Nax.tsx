@@ -31,17 +31,17 @@ const Nav = () => {
 
       <div className="flex flex-col gap-4">
         {/* Replace the hrefs below with your actual links */}
-        <Link href="https://twitter.com/your_handle" target="_blank" rel="noopener noreferrer">
+        <Link href="https://x.com/v_veratti" target="_blank" rel="noopener noreferrer">
           <FaXTwitter className="md:w-6 md:h-6 w-4 h-4 hover:text-white cursor-pointer text-grayy transition-colors duration-200" />
         </Link>
         
-        <Link href="https://linkedin.com/in/your_handle" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.linkedin.com/in/adeolapo-joseph-5b0424273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="md:w-6 md:h-6 w-4 h-4 hover:text-white cursor-pointer text-grayy transition-colors duration-200" />
         </Link>
 
         {/* Your custom WhatsApp Link (Don't forget to insert your actual number) */}
         <Link 
-          href="https://wa.me/15551234567?text=hi%20i%20would%20like%20to%20make%20some%20enquiries" 
+          href="https://wa.me/2348051729362?text=hi%20i%20would%20like%20to%20make%20some%20enquiries" 
           target="_blank" 
           rel="noopener noreferrer"
         >
