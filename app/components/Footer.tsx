@@ -17,7 +17,7 @@ const PAGES: LinkItem[] = [
 ];
 
 const SOCIALS: LinkItem[] = [
-  { label: "Whatsapp", href: "https://wa.me/8051729362?text=hi%20i%20would%20like%20to%20make%20some%20enquiries" },
+  { label: "Whatsapp", href: "https://wa.me/2348051729362?text=hi%20i%20would%20like%20to%20make%20some%20enquiries" },
   { label: "x(twitter)", href: "https://x.com/v_veratti" },
   { label: "linkedin", href: "https://www.linkedin.com/in/adeolapo-joseph-5b0424273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
 ];

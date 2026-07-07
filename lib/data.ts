@@ -33,7 +33,7 @@ export const BRANDS: Brand[] = [
       {
         name: "Stryde Street Wear",
         image: "/project/UI/stryde.png",
-        view: "www.behance.net/gallery/240868779/Avex-Fintech-App",
+        view: "www.behance.net/gallery/248688479/Stryde-E-commece-App",
         description: "This is a mobile app design for a street wear company called Stryde. The app allows users to browse and purchase street wear products, as well as track their orders.",
       },
       {
