@@ -117,11 +117,11 @@ export const BRANDS: Brand[] = [
 
       {
             
-        name: "Spotify Clone",
+        name: "Musico",
         description: "This is a web app called Spotify Clone. The app is a music streaming platform that allows users to listen to and discover new music.",
-        image: "/project/FE/spotify.png",
-        view:"music-app-delta-drab.vercel.app",
-        code:"https://github.com/Adeolapo/MusicApp"
+        image: "/project/FE/Musico.png",
+        view:"musico-topaz.vercel.app",
+        code:"https://github.com/Adeolapo/Musico/tree/main"
       },
 
 
