@@ -50,7 +50,7 @@ export default function Home() {
     <div className="flex flex-col  items-center gap-[120px] justify-center font-satoshi bg-black ">
       <div className="w-full  flex flex-col h-[75vh] md:h-[80vh] lg:h-[70vh] lg:mb-[120px]  items-center ">
       <main className="flex   w-full max-w-3xl flex-col flex-1  items-center justify-center py-32 px-16 sm:items-start">
-        <h1 className="font-bold md:text-7xl text-4xl text-white mb-6 font-satoshi">Fullstack Engineer <span className="text-grayy">and</span> Product Designer</h1>
+        <h1 className="font-bold md:text-7xl text-4xl text-white mb-6 font-satoshi">Frontend Developer <span className="text-grayy">and</span> Product Designer</h1>
         <p className="text-grayy">Lagos, Nigeria.</p>
        
       </main>
