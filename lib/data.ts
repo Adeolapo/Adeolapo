@@ -87,13 +87,21 @@ export const BRANDS: Brand[] = [
         name: "Avant GBV Website",
         description: "This is a web app which is a website for a company called Avant GBV. The website helps victims of any form of gender-based violence to report and get help. It also gives them a platform to find solace and get help from the right authorities.",
         image: "/project/FE/avant.png",
-        view:"veratti-avant-gbv.vercel.app/",
+        view:"https://avant-8d62.vercel.app/",
         code:"https://github.com/Adeolapo/avant_gbv"
+      },
+      {
+            
+        name: "Musico",
+        description: "This is a web app called Spotify Clone. The app is a music streaming platform that allows users to listen to and discover new music.",
+        image: "/project/FE/Musico.png",
+        view:"musico-topaz.vercel.app",
+        code:"https://github.com/Adeolapo/Musico/tree/main"
       },
       {
         name: "Renoto App",
         image: "/project/FE/renoto.png",
-        view:"veratti-renoto.vercel.app",
+        view:"https://veratti-renoto.vercel.app",
         code:"https://github.com/Adeolapo/Renoto",
         description: "This is a web app called Renoto. The app is a productivity tool that helps users to take notes, create to-do lists, and manage their tasks. It also has a feature that allows users to set reminders for their tasks.",
       },
@@ -115,14 +123,7 @@ export const BRANDS: Brand[] = [
         code:"https://github.com/Adeolapo/MeTube2"  
       },
 
-      {
-            
-        name: "Musico",
-        description: "This is a web app called Spotify Clone. The app is a music streaming platform that allows users to listen to and discover new music.",
-        image: "/project/FE/Musico.png",
-        view:"musico-topaz.vercel.app",
-        code:"https://github.com/Adeolapo/Musico/tree/main"
-      },
+      
 
 
     ]
