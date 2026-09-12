@@ -91,6 +91,12 @@ export const BRANDS: Brand[] = [
         code:"https://github.com/Adeolapo/avant_gbv"
       },
       {
+        name: "HomeEdu app",
+        description: "This is an app which is for a company called HomeEdu. The website helps students and parents to find educational resources and manage their learning.From Grade 1 to JAMB preparation. 50,000+ past questions, adaptive learning paths, and personalized progress tracking.",
+        image: "/HomeEdu.png",
+        view:"https://www.homeedu.com.ng/",
+      },
+      {
             
         name: "Musico",
         description: "This is a web app called Spotify Clone. The app is a music streaming platform that allows users to listen to and discover new music.",
