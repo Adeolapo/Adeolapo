@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import HoverList from "./components/HoverList";
@@ -62,13 +63,22 @@ export default function Home() {
         {/* Text + ticker column */}
         <div className="w-full lg:flex-1 lg:max-w-xl">
           <div ref={container} className="mb-8 md:mb-[64px]"> 
-            <p className="reveal-text text-base md:text-lg lg:text-xl text-white w-full font-satoshi font-semibold leading-[1.6]">
+            <p className="reveal-text text-base md:text-lg lg:text-xl text-white w-full font-satoshi font-semibold mb-4 leading-[1.6]">
              I’m Oluwasemilore Toluwanimi Adeolapo, a Frontend Developer and UI/UX Designer focused on building clean, responsive, and user-centered digital experiences.
 
 I’ve designed and developed multiple responsive websites for local businesses, improving their online presence and boosting conversions through clearer design and better usability.
 
 I combine creativity with logic, always digging into the “why” behind each design choice.
             </p>
+
+             <Link
+            href="/about"
+            className="mt-2 inline-flex w-fit items-center rounded-md bg-white px-6 py-3 text-sm font-medium text-black transition-colors duration-200 hover:bg-custom-gray"
+          >
+            learn more
+          </Link>
+
+      
           </div>
           <StackTicker />
         </div>

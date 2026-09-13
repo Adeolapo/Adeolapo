@@ -45,13 +45,15 @@ export default function About() {
         <div className="mt-10 flex flex-col gap-10 md:mt-14 lg:flex-row lg:gap-16">
           <div className="flex flex-col gap-6 lg:max-w-xl lg:flex-1">
           <p className="text-base leading-[1.6] text-grayy md:text-lg">
-            I&apos;m Oluwasemilore Toluwanimi Adeolapo, a Frontend Developer and UI/UX Designer who bridges the gap between premium visual aesthetics and rigorous system architecture. With an academic foundation in Computer Science, I specialize in building state-aware, high-performance web applications using Next.js, React, and TypeScript.
+            I&apos;m Oluwasemilore Toluwanimi Adeolapo, a Frontend Developer and UI/UX Designer who enjoys turning ideas into clean, functional digital experiences. With a background in Computer Science, I build modern web applications using React, Next.js, and TypeScript.
           </p>
+
           <p className="text-base leading-[1.6] text-grayy md:text-lg">
-            My workflow spans the entire product lifecycle from engineering strict grid layouts and interactive prototypes in Figma and Framer, to executing complex frontend logic with Redux Toolkit and Tailwind CSS. I design and develop everything from scalable e-commerce platforms handling dynamic payment states to high-end digital portfolios for the commercial real estate sector.
+            I work across the whole process, from designing layouts and prototypes in Figma and Framer to bringing them to life with React, Tailwind CSS, and Redux Toolkit. I&apos;ve worked on everything from e-commerce platforms and fintech products to websites for businesses and real estate.
           </p>
+
           <p className="text-base leading-[1.6] text-grayy md:text-lg">
-            I combine creative intuition with computational logic. Because I understand data flow all the way down to server-side routing with Node.js and Express, I don&apos;t just design interfaces that look flawless I architect resilient digital products engineered to perform.
+            I like being involved in both the design and development side of a project. It helps me create interfaces that not only look good, but also work well and are actually practical to build.
           </p>
 
            <a
