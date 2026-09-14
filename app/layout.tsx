@@ -4,6 +4,8 @@ import "./globals.css";
 import Nav from "./components/Nax";
 import localFont from 'next/font/local';
 import Footer from "./components/Footer";
+import { Analytics } from '@vercel/analytics/next';
+
 
 
 // Configure the local font and map it to a CSS variable
@@ -51,6 +53,7 @@ export default function RootLayout({
       <body className="min-h-full bg-[#000] flex flex-col">
         <Nav />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
