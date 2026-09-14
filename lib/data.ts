@@ -87,7 +87,7 @@ export const BRANDS: Brand[] = [
         name: "Avant GBV Website",
         description: "This is a web app which is a website for a company called Avant GBV. The website helps victims of any form of gender-based violence to report and get help. It also gives them a platform to find solace and get help from the right authorities.",
         image: "/project/FE/avant.png",
-        view:"avant-8d62.vercel.app",
+        view:"avant-ashen.vercel.app",
         code:"https://github.com/Adeolapo/avant_gbv"
       },
       {
